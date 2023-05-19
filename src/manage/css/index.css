@@ -1,0 +1,62 @@
+@import url('./reset.css');
+@font-face {
+  font-family: "iconfont"; /* Project id 4068052 */
+  src: url('../../fonts/iconfont.woff2') format('woff2'),
+       url('../../fonts/iconfont.woff') format('woff'),
+       url('../../fonts/iconfont.ttf') format('truetype');
+}
+html,
+body{
+ height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  height: 60px;
+  background-color: coral;
+}
+.body{
+  display: flex;
+  flex: 1;
+  background-color: rgb(240, 242, 245) ;
+}
+
+#menu {
+  width: 200px;
+  background-color: #666;
+  box-shadow: 0 0 15px #999;
+}
+.body main{
+  flex: 1;
+}
+
+
+.panel{
+  background-color: white;
+  margin: 24px;
+  padding: 34px;
+  border-radius: 2px;
+  border:  1px solid rgb(240, 242, 245) ;
+  box-shadow: 0 0 15px #eee;
+}
+.gap{
+  height: 20px;
+}
+table{
+  width: 100%;
+
+}
+th,
+td{
+  border: 1px solid rgb(235, 238, 245);
+  padding: 8px 12px;
+  color: #444;
+  text-align: center;
+}
+th{
+  font-weight: bold;
+}
+

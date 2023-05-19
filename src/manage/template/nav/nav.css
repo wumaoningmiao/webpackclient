@@ -1,0 +1,18 @@
+dt{
+  padding: 5px 15px;
+  cursor: pointer;
+  line-height: 30px;
+  color: white;
+}
+
+dd{
+  
+  background-color: #333;
+  display: none;
+  color: #999;
+}
+dd a{
+  padding: 10px 15px;
+  display: block;
+  cursor: pointer;
+}

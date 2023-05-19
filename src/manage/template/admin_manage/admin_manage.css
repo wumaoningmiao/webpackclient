@@ -1,0 +1,13 @@
+td{
+  font-size: 14px;
+}
+td button{
+  margin: 0 10px;
+  background-color: #ff7f50;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+  padding: 5px 5px;
+  cursor: pointer;
+  border: none;
+}

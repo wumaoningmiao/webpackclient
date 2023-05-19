@@ -1,0 +1,49 @@
+#dialog{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  display: none;
+}
+#window{
+  width: 400px;
+  min-height: 300px;
+  box-sizing: border-box;
+  background-color: white;
+  margin: auto;
+  padding: 20px 0;
+  position: relative;
+  margin-top: 230px;
+}
+#window div{
+  margin-top: 20px;
+  text-align: center;
+}
+#window div:nth-of-type(4){
+  margin-left: 80px;
+}
+#window div:nth-of-type(1){
+  border-bottom: 2px solid coral;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+#window div:nth-of-type(1) span {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #999;
+  font-size: 20px;
+  cursor: pointer;
+}
+#window div button{
+  background-color: coral;
+  border: none;
+  color: white;
+  width: 200px;
+  height: 30px;
+  border-radius: 2px;
+  margin: 30px 0;
+  cursor: pointer;
+}

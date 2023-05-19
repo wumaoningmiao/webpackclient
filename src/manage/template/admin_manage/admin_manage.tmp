@@ -1,0 +1,26 @@
+<div class="panel">
+  <div>
+    <form name="admin_manage_search">
+      用户名： <input type="text" name="uid">
+      <button type="submit">查询</button>
+      <button type="reset">重置</button>
+      <button type="button" id="admin_manage_add_btn">新增</button>
+    </form>
+    <div class="gap">
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>用户名</th>
+          <th>更新时间</th>
+          <th>注册时间</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody id='admin_manage_tbody'>
+      </tbody>
+
+    </table>
+  </div>
+</div>

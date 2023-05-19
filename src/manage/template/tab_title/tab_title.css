@@ -1,0 +1,40 @@
+#tab-title ul {
+  display: flex;
+  border-bottom:1px solid #ccc ;
+  height: 40px;
+}
+
+#tab-title ul li {
+  cursor: pointer;
+  line-height: 40px;
+  padding: 0 20px;
+  margin: 0 5px;
+ 
+}
+
+#tab-title ul li.active {
+  background-color: #ff7f50;
+  color: white;
+}
+
+#tab-title ul li i {
+  font-style: normal;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+  color: #c2c2c2;
+  font-family: 'iconfont';
+  vertical-align: middle;
+  line-height: 18px;
+  text-align: center;
+}
+
+#tab-title ul li i::after {
+  content: '\e611';
+}
+
+#tab-title ul li i:hover {
+  background-color: coral;
+  color: white;
+}

@@ -1,0 +1,30 @@
+{
+  "id": "4068052",
+  "name": "蜗牛影城",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4942640",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "6119216",
+      "name": "上-三角",
+      "font_class": "top-s",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "6119218",
+      "name": "下-三角",
+      "font_class": "below-s",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    }
+  ]
+}

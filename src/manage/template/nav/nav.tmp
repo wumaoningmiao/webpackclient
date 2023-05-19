@@ -1,0 +1,8 @@
+<dl>
+  <dt>系统管理</dt>
+  <dd><a data-template="admin_manage" data-name='管理员管理'>管理员管理</a>
+   <a data-template="admin_add" data-name='管理员新增'>管理员新增</a></dd>
+  <dt>影片管理</dt>
+  <dd><a>影片新增</a>
+  <a>影片新增</a> </dd>
+</dl>
